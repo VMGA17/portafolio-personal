@@ -1,0 +1,134 @@
+*{
+	padding:0;
+	margin: 0;
+}
+body{
+	background: url(../imagenes/animal.jpg)fixed;
+	background-size: 1290px;
+	height: 100% !important;
+}
+.menu{
+	background-color: rgba(0,0,0,0.7);
+	width: 100% !important;
+	height: 800px;
+}
+.foto{
+	border-width: 5px;
+	border-color: black;
+	border-radius: 6px;
+	width: 350px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.foto1{
+	width: 300px;
+	height: 400px;
+	border-width: 5px;
+	border-color: black;
+	border-radius: 6px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.nombre{
+	text-align: center;
+	font-weight: bold;
+	color: #51856F;
+	font-family: Berlin Sans FB;
+	font-size: 50px;
+	margin-top: 40px;
+}
+.tp{
+	margin-top: 70px;
+}
+.img1{
+	width: 50px;
+	height: 60px;
+}
+.txtmenu{
+	font-family: Berlin Sans FB;
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+}
+.txtm :hover{
+	text-decoration: none;
+	color: #BBD2D6;
+}
+.img2{
+	width: 300px;
+	height: 400px;
+}
+.slider{
+	width: 300px;
+	height: 400px;
+	margin: -2em auto;
+	margin-left: 200px;
+	margin-top: 150px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	box-shadow: 2px 2px 3px black; 
+}
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 300%;
+
+	animation: cambio 25s infinite alternate ease-in;
+}
+.slider li{
+	list-style: none;
+}
+@keyframes cambio{
+	0%{ margin-left: 0; }
+	20%{ margin-left: 0; }
+
+	25%{ margin-left: -100%; }
+	45%{ margin-left: -100%; }
+
+	50%{ margin-left: -200%; }
+	70%{ margin-left: -200%; }
+
+	75%{ margin-left: -300%; }
+	90%{ margin-left: -300%; }
+}
+.slider1{
+	width: 300px;
+	height: 400px;
+	margin: -2em auto;
+	margin-left: 170px;
+	margin-top: 150px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	box-shadow: 2px 2px 3px black; 
+}
+.slider1 ul{
+	display: flex;
+	padding: 0;
+	width: 300%;
+
+	animation: cambio 25s infinite alternate ease-in;
+}
+.slider1 li{
+	list-style: none;
+}
+@keyframes cambio{
+	0%{ margin-left: 0; }
+	20%{ margin-left: 0; }
+
+	25%{ margin-left: -100%; }
+	45%{ margin-left: -100%; }
+
+	50%{ margin-left: -200%; }
+	70%{ margin-left: -200%; }
+
+	75%{ margin-left: -300%; }
+	90%{ margin-left: -300%; }
+}
+.img3{
+	width: 300px;
+	height: 400px;
+	margin-top: 90px;
+	margin-left: 200px;
+	margin-bottom: 20px;
+}

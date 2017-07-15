@@ -1,0 +1,87 @@
+*{
+	padding:0;
+	margin: 0;
+}
+body{
+	background: url(../imagenes/sapo.jpg) fixed;
+	background-size: 1290px;
+	height: 100% !important;
+}
+.menu{
+	background-color: rgba(0,0,0,0.7);
+	width: 100% !important;
+	height: 800px;
+}
+.foto{
+	border-width: 5px;
+	border-color: black;
+	border-radius: 6px;
+	width: 350px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.foto1{
+	width: 300px;
+	height: 400px;
+	border-width: 5px;
+	border-color: black;
+	border-radius: 6px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.nombre{
+	text-align: center;
+	font-weight: bold;
+	color: #51856F;
+	font-family: Berlin Sans FB;
+	font-size: 50px;
+	margin-top: 40px;
+}
+.tp{
+	margin-top: 70px;
+}
+.img1{
+	width: 50px;
+	height: 60px;
+}
+.txtmenu{
+	font-family: Berlin Sans FB;
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+}
+.txtm :hover{
+	text-decoration: none;
+	color: #BBD2D6;
+}
+.texto1{
+	font-family: Comic sans ms;
+	font-size: 30px;
+	color: black;
+	margin-top: 150px;
+}
+.texto2{
+	font-family: Comic sans ms;
+	font-size: 30px;
+	color: black;
+}
+.texto3{
+	font-family: Comic sans ms;
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 100px;
+}
+.img2{
+	width: 300px;
+	height: 350px;
+	margin-top: 100px;
+}
+.linea1{
+	font-family: comic sans ms;
+	color: #D0541A;
+	font-size: 25px;
+	font-weight: bold;
+}
